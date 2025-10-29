@@ -1,3 +1,28 @@
+# -----------------------------------------------------------------------------
+# fractal.glib
+# Author: Noah Pettinato
+# Course: CS 457 – Computer Graphics Shaders
+#
+# Description:
+#   GLMAN configuration file for the Interactive Fractal Shader.
+#   Sets up the camera parameters, links vertex and fragment shaders,
+#   and defines adjustable uniform variables for real-time interaction.
+#
+# Uniform Controls:
+#   uZoom            - Controls fractal zoom level
+#   uIntensity       - Adjusts brightness scaling
+#   uRedMix          - Red color channel contribution
+#   uGreenMix        - Green color channel contribution
+#   uBlueMix         - Blue color channel contribution
+#   uIterationFactor - Modulates iteration count (detail vs. performance)
+#   uCenterX, uCenterY - Define fractal center for panning
+#
+# GLMAN Settings:
+#   Perspective - Sets camera field of view
+#   LookAt      - Defines eye position, target, and up vector
+#   QuadXY      - Renders a full-screen quad in XY plane
+# -----------------------------------------------------------------------------
+
 ##OpenGL GLIB
 Perspective 70
 LookAt 0 0 3  0 0 0  0 1 0
