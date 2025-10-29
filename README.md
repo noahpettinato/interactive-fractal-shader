@@ -46,6 +46,12 @@ See **CS457_Final_Project.pdf** for a detailed write-up and explanation of the i
 
 ---
 
+## Demo Video
+Watch the project walkthrough and live fractal interaction here:  
+[Interactive Fractal Shader – Project Video](https://media.oregonstate.edu/media/t/1_iy8o61fe)
+
+---
+
 ## License
 This repository is for educational and portfolio purposes only.  
 Feel free to reference or adapt the shaders with credit.
