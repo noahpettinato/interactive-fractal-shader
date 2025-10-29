@@ -1,0 +1,17 @@
+##OpenGL GLIB
+Perspective 70
+LookAt 0 0 3  0 0 0  0 1 0
+
+Vertex   fractal.vert
+Fragment fractal.frag
+Program  fractal                  \
+    uZoom <0.0 1.0 1000.0>           \
+    uIntensity <0.0 0.5 1.0>       \
+    uRedMix <0.0 0.5 1.0>          \
+    uGreenMix <0.0 0.5 1.0>        \
+    uBlueMix <0.0 0.5 1.0>         \
+    uIterationFactor <0.0 0.5 1.0> \
+    uCenterX <-2.0 0.0 2.0>        \
+    uCenterY <-2.0 0.0 2.0>
+
+QuadXY 1.0 1.0
