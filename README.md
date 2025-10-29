@@ -37,7 +37,7 @@ The shader renders an interactive fractal pattern that responds to real-time use
 - Adjust brightness and color composition
 - Control iteration depth for detail or performance
 
-![Fractal Preview](preview.png) *(optional)*
+![Fractal Preview](preview.png)
 
 ---
 
